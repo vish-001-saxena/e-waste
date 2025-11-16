@@ -1,0 +1,91 @@
+.register-section {
+  max-width: 560px;
+  background: #ecfdf5;
+  margin: 2.8em auto 2em auto;
+  border-radius: 14px;
+  box-shadow: 0 2px 18px #249e6555;
+  padding: 2.2em 2em 2em 2em;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+}
+.register-row {
+  display: flex;
+  gap: 1.3em;
+  flex-wrap: wrap;
+}
+.register-row label {
+  flex: 1 1 180px;
+}
+
+label {
+  font-weight: 600;
+  color: #249e65;
+  margin-bottom: 0.3em;
+  display: flex;
+  flex-direction: column;
+}
+label span {
+  color: #e05a35;
+  margin-left: 3px;
+  font-size: 1.15em;
+  vertical-align: super;
+}
+
+input, select {
+  font-size: 1rem;
+  padding: 0.8em 0.7em;
+  border-radius: 7px;
+  border: 1.2px solid #c4daca;
+  background: #fff;
+  margin-top: 0.3em;
+  transition: border-color 0.2s;
+}
+input:focus, select:focus {
+  outline: none;
+  border-color: #249e65;
+}
+.reg-error {
+  color: #c44;
+  font-size: 0.96em;
+  margin: 1px 0 0 0;
+}
+.register-btn {
+  background: #249e65;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8em 1.8em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 12px #249e6522;
+  margin-top: 1.3em;
+  transition: background 0.2s;
+}
+.register-btn:hover {
+  background: #18804b;
+}
+.register-confirm {
+  background: #e7f7ec;
+  color: #249e65;
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  margin-top: 2em;
+  font-size: 1.12em;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .register-section {
+    max-width: 99vw;
+    padding: 1.2em 0.6em 1.2em 0.6em;
+  }
+  .register-row {
+    flex-direction: column;
+    gap: 0.7em;
+  }
+}

@@ -1,0 +1,52 @@
+.mobileapp-section {
+  max-width: 410px;
+  margin: 3em auto 2em auto;
+  background: #ecfdf5;
+  border-radius: 15px;
+  box-shadow: 0 2px 18px #249e6540;
+  padding: 2.5em 1.6em 2.6em 1.6em;
+  text-align: center;
+}
+
+.mobileapp-logo {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 1em;
+  border-radius: 16px;
+  border: 2.5px solid #249e65;
+  box-shadow: 0 1px 8px #249e6522;
+  background: #fff;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.mobileapp-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.9em;
+  margin: 2em 0 0 0;
+}
+
+.mobileapp-qr {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  border: 1.5px solid #bddfc7;
+  background: #fff;
+  margin-bottom: 0.7em;
+}
+.play-badge img {
+  transition: transform 0.14s;
+}
+.play-badge img:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 600px) {
+  .mobileapp-section {
+    max-width: 98vw;
+    padding: 1.1em 0.3em 2em 0.3em;
+  }
+}

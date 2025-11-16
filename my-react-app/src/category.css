@@ -1,0 +1,108 @@
+.category-section-vertical {
+  max-width: 530px;
+  margin: 2.5em auto 2em auto;
+  background: #ecfdf5;
+  border-radius: 16px;
+  box-shadow: 0 2px 18px #249e6555;
+  padding: 2.3em 2em 2em 2em;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+.prompt {
+  text-align: center;
+  font-size: 1.15em;
+  margin-bottom: 2em;
+  color: #249e65;
+  font-weight: 500;
+}
+
+.vertical-category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.vertical-category-card {
+  display: flex;
+  gap: 1.1em;
+  background: #fff;
+  align-items: center;
+  padding: 1.3em 1.2em;
+  border-radius: 10px;
+  border: 1.2px solid #eee;
+  box-shadow: 0 1px 10px #249e6525;
+  cursor: pointer;
+  transition: border 0.18s, box-shadow 0.16s, background 0.18s;
+  font-size: 1em;
+}
+.vertical-category-card.selected-vertical {
+  border: 2.2px solid #249e65;
+  background: #e7f7ec;
+}
+.vertical-card-icon {
+  font-size: 2.2em;
+  color: #249e65;
+  flex-shrink: 0;
+}
+.vertical-radio {
+  accent-color: #249e65;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+.vertical-card-title {
+  color: #249e65;
+  margin-bottom: 0.2em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.vertical-card-desc {
+  color: #43574d;
+  font-size: 0.99em;
+  margin-bottom: 0;
+}
+
+.vertical-category-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3em;
+  padding-top: 1em;
+}
+.vertical-btn {
+  background: #249e65;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.84em 2em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 14px #249e6522;
+  transition: background 0.2s;
+  margin-top: 0.6em;
+}
+.vertical-btn:disabled {
+  background: #bddfc7;
+  cursor: not-allowed;
+}
+.vertical-btn:hover:enabled {
+  background: #18804b;
+}
+.vertical-confirm {
+  color: #249e65;
+  background: #e7f7ec;
+  border-radius: 7px;
+  padding: 1em 1.5em;
+  margin-top: 0.7em;
+}
+@media (max-width: 700px) {
+  .category-section-vertical {
+    max-width: 98vw;
+    padding: 1.2em 0.4em 1.2em 0.4em;
+  }
+}

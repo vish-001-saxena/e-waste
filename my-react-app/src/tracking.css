@@ -1,0 +1,69 @@
+.tracking-section {
+  max-width: 570px;
+  background: #ecfdf5;
+  margin: 2.8em auto 2em auto;
+  border-radius: 14px;
+  box-shadow: 0 2px 18px #249e6555;
+  padding: 2.2em 2em 2em 2em;
+  text-align: left;
+}
+
+.tracking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+  margin-bottom: 2em;
+}
+
+.tracking-label {
+  font-weight: 600;
+  margin-bottom: 0.4em;
+  color: #249e65;
+  font-size: 1.15em;
+}
+
+.tracking-input {
+  font-size: 1rem;
+  padding: 0.85em 1em;
+  border-radius: 7px;
+  border: 1.2px solid #c4daca;
+  background: #fff;
+  margin-bottom: 0.2em;
+  transition: border-color 0.2s;
+}
+
+.tracking-input:focus {
+  outline: none;
+  border-color: #249e65;
+}
+
+.tracking-btn {
+  background: #249e65;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.84em 2em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 14px #249e6522;
+  transition: background 0.2s;
+  margin-top: 0.6em;
+}
+
+.tracking-btn:hover {
+  background: #18804b;
+}
+
+.tracking-result {
+  margin-top: 1.2em;
+  font-size: 1.14em;
+  color: #249e65;
+  background: #e7f7ec;
+  border-radius: 8px;
+  padding: 1em 1.5em;
+}
+
+.tracking-map-container {
+  margin-top: 2em;
+}
